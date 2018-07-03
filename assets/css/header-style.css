@@ -59,6 +59,7 @@ nav{
     -moz-transition: 1s linear;
     -o-transition: 1s linear;
     transition: 1s linear;
+    text-decoration: none;
 }
 
 .header-logo{
@@ -95,7 +96,7 @@ nav{
 }
 
 .nav-bar li:hover{
-    border-bottom: 3px solid #FE9D68;
+    border-bottom: 3px solid #ff7660;
     padding-bottom: 20px;
     transition: border-bottom .1s linear;
 }
