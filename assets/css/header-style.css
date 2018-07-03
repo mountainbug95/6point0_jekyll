@@ -1,15 +1,19 @@
 header{
     padding: 0;
     margin: 0;
+    height: 0px;
+}
+
+nav{
+    margin:0px;
+    padding: 0px;
 }
 
 .logo-container{
-    margin:0;
-    padding-top: 50px;
-    padding-left: 0px;
-    position: absolute;
+    position: relative;
+    left: 0px;
+    top: 50px;
     display: inline;
-    float: left;
 }
 
 @keyframes rotate-anim {
@@ -33,49 +37,59 @@ header{
 }
 
 .header-logo-bg{
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    position: relative;
+    left: 0px;
+    top: -30px;
+    left: 180px;
+}
+
+.logo-link{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-link:hover > .header-logo-bg{
+    -webkit-animation: rotate-anim 5s infinite;
+    -moz-animation: rotate-anim 5s infinite;
+    -o-animation: rotate-anim 5s infinite;
+    animation: rotate-anim 5s linear infinite;
     -webkit-transition: 1s linear;
     -moz-transition: 1s linear;
     -o-transition: 1s linear;
     transition: 1s linear;
-    -webkit-animation: rotate-anim 5s infinite;
-    -moz-animation: rotate-anim 5s infinite;
-    -o-animation: rotate-anim 5s infinite;
-    display: inline-block;
-    animation: rotate-anim 5s infinite;
-    opacity: 0;
-    margin:0;
-    position: relative;
-    width: 145px;
-    bottom: 40px;
-    left: 180px;
-}
-
-.logo-link:hover > .header-logo-bg{
-    opacity: 1;
 }
 
 .header-logo{
-    z-index: -1;
     margin:0;
+    padding: 0;
     position: relative;
-    bottom: 70px;
-    left: 50px;
+    top: 2px;
+    left: 150px;
 }
 
 .nav-bar{
     list-style-type: none;
     text-align: right;
-    padding-top: 30px;
-    padding-right: 130px;
+    padding-top: 0;
+    padding-right: 50px;
 }
 
 .nav-bar li{
     display: inline;
     padding-right: 22px;
     padding-left: 22px;
+    padding-left: 0;
 }
 
 .nav-bar li a{
+    margin-left: 13px;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     -o-transition: color 1s;
@@ -83,6 +97,12 @@ header{
     text-decoration: none;
     color: #8B8B8B;
     font-weight:700;
+}
+
+.nav-bar li:hover{
+    border-bottom: 3px solid #FE9D68;
+    padding-bottom: 20px;
+    transition: border-bottom .1s linear;
 }
 
 .nav-bar li a:link{
