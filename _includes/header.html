@@ -1,0 +1,17 @@
+<header>
+    <div class="logo-container">
+        <a href="../index.html" class="logo-link">
+        <img src="../assets/img/global/logo-shine.svg" alt="logo background" class="header-logo-bg">
+        </a>
+        <img src="../assets/img/global/logo.svg" alt="logo" class="header-logo">
+    </div>
+    <nav>
+        <ul class="nav-bar">
+            {% for page in site.pages %}
+                {% if page.title != null%}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
