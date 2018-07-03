@@ -1,7 +1,7 @@
 header{
+    display: inline;
     padding: 0;
     margin: 0;
-    height: 0px;
 }
 
 nav{
@@ -10,10 +10,10 @@ nav{
 }
 
 .logo-container{
-    position: relative;
-    left: 0px;
-    top: 50px;
-    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
 }
 
 @keyframes rotate-anim {
@@ -41,15 +41,10 @@ nav{
     margin:0;
     padding: 0;
     position: relative;
-    left: 0px;
-    top: -30px;
-    left: 180px;
+    left: 60px;
 }
 
 .logo-link{
-    position: relative;
-    top: 0;
-    left: 0;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -70,14 +65,14 @@ nav{
     margin:0;
     padding: 0;
     position: relative;
-    top: 2px;
-    left: 150px;
+    top: 35px;
+    left: 27px;
 }
 
 .nav-bar{
     list-style-type: none;
     text-align: right;
-    padding-top: 0;
+    padding-top: 50px;
     padding-right: 50px;
 }
 
