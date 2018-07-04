@@ -62,6 +62,10 @@ nav{
     text-decoration: none;
 }
 
+.logo-link:link{
+    text-decoration: none;
+}
+
 .header-logo{
     margin:0;
     padding: 0;
