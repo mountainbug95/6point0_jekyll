@@ -9,14 +9,18 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--include stylesheets here-->
-    <link rel="stylesheet" href="../assets/css/header-style.css">
-    <link rel="stylesheet" href="../assets/css/main-style.css">
-    <link rel="stylesheet" href="../assets/css/footer-style.css">
-    {% if page.title == "Index"%}
-        <link rel="stylesheet" href="../assets/css/index-style.css">
+    <link rel="stylesheet" href="/assets/css/header-style.css">
+    <link rel="stylesheet" href="/assets/css/main-style.css">
+    <link rel="stylesheet" href="/assets/css/mission-style.css">
+    <link rel="stylesheet" href="/assets/css/footer-style.css">
+    {% if page.title == "Index" %}
+        <link rel="stylesheet" href="/assets/css/index-style.css">
     {% endif %}
-    {% if page.title == "Work"%}
-        <link rel="stylesheet" href="../assets/css/work-style.css">
+    {% if page.title == "Work" %}
+        <link rel="stylesheet" href="/assets/css/work-style.css">
+    {% endif %}
+    {% if page.layout == "client" %}
+        <link rel="stylesheet" href="/assets/css/client-style.css">
     {% endif %}
     <!--end  stylesheets-->
 </head>

@@ -3,8 +3,13 @@
     {% include head.html %}
     <body>
         {% include header.html %}
-        
-        {{ content }}
+        <div class="content-container">
+            {{ content }}
+            
+            {% if page.title != "Contact" %}
+                {% include mission.html %}
+            {% endif %}
+        </div>
         
         {% include footer.html %}
     </body>

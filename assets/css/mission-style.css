@@ -1,0 +1,28 @@
+/*Mission style*/
+.mission{
+    padding-top: 220px;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    padding-bottom: 220px;
+}
+
+.contact-link{
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    display: inline-block;
+    border-bottom-style: solid;
+    border-color: #ff7660;
+}
+
+.contact-link:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-link a{
+    text-decoration: none;
+    color: #ff7660;
+}
