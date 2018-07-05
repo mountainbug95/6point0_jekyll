@@ -6,15 +6,11 @@
         <div class="content-container">
             {{ content }}
             
-            {% if page.title != "Contact" %}
+            {% if page.title != "Contact" and page.layout != "client" %}
                 {% include mission.html %}
             {% endif %}
         </div>
         
         {% include footer.html %}
-        
-        {% if page.layout == "client" %}
-            
-        {% endif %}
     </body>
 </html>

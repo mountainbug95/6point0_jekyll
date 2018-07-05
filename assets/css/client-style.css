@@ -103,3 +103,51 @@ a: hover{
     text-decoration: underline
     color: #000;
 }
+
+.next-page-container{
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .2s linear;
+    background-color: #383838;
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-bottom: 0;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    text-decoration: none;
+}
+
+.next-page-container:hover{
+    background-color: #ff7660;
+    color: #000;
+    text-decoration: none;
+}
+
+.next-page-container h2{
+    margin-left: 20%;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.next-page-container h1{
+    margin-left: 20%;
+    margin-top: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.next-page-link{
+    text-decoration: none;
+    transition: none;
+}
+
+.next-page-link:hover{
+    text-decoration: none;
+    transition: none;
+}
+
+.next-page-link:link{
+    text-decoration: none;
+    transition: none;
+}
