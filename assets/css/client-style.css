@@ -1,13 +1,16 @@
 .quote-container{
     max-width: 800px;
     margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-top: -100px;
 }
 
 /*img container styles*/
 .images-container{
     display: inline-block;
     max-width: 1500px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     padding: 0;
 }
 
@@ -32,16 +35,21 @@
 
 .about-container{
     display: inline;
-    width: 1000px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+}
+
+.about-container h3{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
 }
 
 /*details container styles*/
 .details-container{
-    display: inline;
-    width: 1000px;
+
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -61,11 +69,14 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    line-height: 25px;
 }
 
 .details-container div ul li{
     display: inline;
-    padding: 2px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 1000;
     color: #fff;
     background-color: #8B8B8B;
     font-size: 9px;
