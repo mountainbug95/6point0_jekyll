@@ -2,6 +2,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DUSK CMS</title>
+    <link rel="icon" href="/assets/img/favicons/favicon-32x32.png">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -24,6 +25,9 @@
     {% endif %}
     {% if page.title == "About" %}
         <link rel="stylesheet" href="/assets/css/about-style.css">
+    {% endif %}
+    {% if page.title == "People" %}
+        <link rel="stylesheet" href="/assets/css/people-style.css">
     {% endif %}
     <!--end  stylesheets-->
 </head>

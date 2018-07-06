@@ -1,0 +1,65 @@
+.tagline{
+margin-left: 50px;
+margin-right: 50px;
+max-width: 600px;
+}
+
+.people-container{
+    
+    text-align: center;
+}
+
+.people-container div h3{
+    max-width: 200px;
+    text-align: left;
+}
+
+.people-container div{
+    vertical-align: top;
+    display: inline-block;
+    
+    margin: 10px;
+}
+
+.img-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-container img{
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    max-width: 250px;
+}
+
+.img-container:hover > .img-overlay{
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    display: block;
+}
+
+.img-container:hover > img{
+    transform: scale(1.2);
+}
+
+.img-overlay{
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    background-color: #ff7660;
+    opacity: 0.7;
+    display: none;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
