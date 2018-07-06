@@ -36,6 +36,16 @@ nav{
   100% { opacity:1; }
 }
 
+@media screen and (max-width: 800px) {
+    .nav-bar a{
+        display: none;
+    }
+    
+    .nav-bar li{
+        opacity: 0;
+    }
+}
+
 .header-logo-bg{
     display: inline-block;
     margin:0;

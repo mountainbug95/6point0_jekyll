@@ -1,0 +1,68 @@
+.nav-button{
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+    float: right;
+    padding: 7px;
+    padding-top: 4px;
+    margin-top: 25px;
+    margin-right: 25px;
+    background-color: #fff;
+    border-style: none;
+    outline: none;
+    display: none
+}
+
+.nav-button:hover{
+    background-color: #000;
+}
+
+.nav-button:hover > h6{
+    border-color: #fff;
+}
+
+.nav-button h6{
+    border-bottom-style: solid;
+    border-bottom-color: #ff7660;
+    border-bottom-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    margin: 0px;
+    font-size: 1px;
+}
+
+.drop-nav-menu{
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: 1s linear;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 0px;
+    display: none;
+}
+
+.drop-nav-menu h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.drop-nav-menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.drop-nav-menu a:hover{
+    color: #ff7660;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-button{
+        display: inline-block;
+    }
+}
+

@@ -1,0 +1,30 @@
+<button class="nav-button" id="nBtn" onclick="toggleMenu()">
+    <h6>&nbsp;</h6>
+    <h6>&nbsp;</h6>
+    <h6>&nbsp;</h6>
+</button>
+
+<div class="drop-nav-menu" id="nMenu">
+    {% for page in site.pages %}
+        {% if page.title != null and page.title != "Index" and page.layout != "client" %}
+            <a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
+            <br>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<script>
+    var expanded = 0;
+    
+    function toggleMenu(){
+        if (expanded == 0){
+            document.getElementById("nMenu").style.display = "block";
+            expanded = 1;
+        }
+        
+        else{
+            document.getElementById("nMenu").style.display = "none";
+            expanded = 0;
+        }
+    }
+</script>
