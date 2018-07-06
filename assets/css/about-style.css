@@ -1,0 +1,100 @@
+.tagline{
+margin-left: 50px;
+margin-right: 50px;
+max-width: 500px;
+}
+
+.img-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.pitch-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.pitch-container h3{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.pitch-container h1{
+    margin-bottom: 0px;
+}
+
+.h-line{
+    border-bottom-style: solid;
+    border-bottom-color: #ff7660;
+    border-bottom-width: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+    display: inline;
+}
+
+.services-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:100px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.services-container div{
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.services-container ul{
+    list-style-type: square;
+}
+
+.services-container ul li{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.selected-clients-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1000px;
+    max-width: 100%;
+    background-color: #f9f9f9;
+}
+
+.selected-clients-container h6{
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.selected-clients-container h2{
+    margin: 0;
+    max-width: 600px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.client-logos-container{
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    maX-width: 100%;
+}
+
+.client-logos-container img{
+    display: inline-block;
+    margin-left: 7%;
+    margin-right: 7%;
+}
