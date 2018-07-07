@@ -17,7 +17,6 @@ max-width: 600px;
 .people-container div{
     vertical-align: top;
     display: inline-block;
-    
     margin: 10px;
 }
 
@@ -39,7 +38,7 @@ max-width: 600px;
     -moz-transition: .3s linear;
     -o-transition: .3s linear;
     transition: .3s linear;
-    display: block;
+    opacity: 0.9;
 }
 
 .img-container:hover > img{
@@ -52,14 +51,152 @@ max-width: 600px;
     -o-transition: .3s linear;
     transition: .3s linear;
     background-color: #ff7660;
-    opacity: 0.7;
-    display: none;
-    float: left;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
     width: 100%;
     height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
+    text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.image-overlay div{
+    text-align: center;
+}
+
+
+/*overlay buttons-*/
+.twitter-btn{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_03-twitter_104501.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-transition: .1s block;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.twitter-btn:hover{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_03-twitter_104501.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: scale(1.2);
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dribbble-btn{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_02-dribbble_104497.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.dribbble-btn:hover{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_02-dribbble_104497.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: scale(1.2);
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mail-btn{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_aiga_mail_134146.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.mail-btn:hover{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_aiga_mail_134146.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: scale(1.2);
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.instagram-btn{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_Instagram_1159683.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.instagram-btn:hover{
+    display: inline-block;
+    background-color: #fff;
+    background-image: url('/assets/img/favicons/if_Instagram_1159683.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: scale(1.2);
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
