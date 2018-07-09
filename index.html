@@ -8,8 +8,10 @@ title: Index
     <h1>Let's craft experiences that</h1>
     
     <ddiv class="cursor">
-        <h1 class="typed-text">*PLACE HOLDER TEXT*</h1>
+        <h1 class="typed-text" id="typedText">resonate with users</h1>
+        
     </ddiv>
+    
     
     <div class="center">
         <a href="/pages/work.html" class="progress-btn"></a>
@@ -51,3 +53,30 @@ title: Index
     </div>
     
 </div>
+
+<script>
+    
+    displayLines();
+    
+    function displayLines(){
+        var str1 = ["resonate with users",
+                "grow your business",
+                "bridge chasms",
+                "transform brands"];
+        var delay = 2000;
+        var currentInterval = 0;
+        for(i=0; i < str1.length; i++){
+            
+            (function(i){
+            
+                setTimeout(function(){
+                    document.getElementById("typedText").innerHTML = str1[i];
+                }, currentInterval);
+                
+            }(i));
+                       
+            currentInterval += delay;
+            
+        }
+    }
+</script>
