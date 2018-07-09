@@ -3,17 +3,95 @@
     margin-right: 50px;
 }
 
+/*flipping button*/
+.center{
+    
+}
+
 .progress-btn{
-    text-decoration: none;
-    background-color: #ff7660;
-    color: #fff;
+    text-decoration: #ff7660;
+    background-color: purple;
+    color: #ff7660;
+
+    width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
 }
 
 .progress-btn:hover{
+    text-decoration: none;
+    background-color: #ff7660;
+    color: #ff7660;
+
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.progress-btn:before{
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+    text-decoration: none;
+    background-color: #ff7660;
+    color: #fff;
+    
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    content: "See Projects ->";
+    transition: .3s;
+    
+    transform-origin: top;
+    transform: rotateX(0deg);
+}
+
+.progress-btn:after{
+    vertical-align: top;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    content: "See Projects ->";
+    content: "-----Check-----";
+    transition: .5s;
+    
+    transform-origin: bottom;
+    transform: rotateX(90deg);
+}
+
+.progress-btn:hover:before{
+    transform: rotateX(90deg);
+}
+
+.progress-btn:hover:after{
+    transform: rotateX(0deg);
+}
+/*END FLIPPING BUTTON*/
+
+/*.progress-btn:hover{
     text-decoration: none;
     background-color: #000;
     color: #fff;
@@ -21,7 +99,8 @@
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
-}
+}*/
+
 
 .progress-btn:visited{
     text-decoration: none;
