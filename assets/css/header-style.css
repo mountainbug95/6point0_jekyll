@@ -5,12 +5,14 @@ header{
 }
 
 nav{
-    margin:0px;
+    margin-top: 30px;
     padding: 0px;
 }
 
 .logo-container{
     margin: 0;
+    margin-top: 20px;
+    margin-left: -30px;
     padding: 0;
     float: left;
     display: block;
@@ -86,6 +88,9 @@ nav{
     text-align: right;
     padding-top: 50px;
     padding-right: 50px;
+    font-family: 'Helvetica Neue',Helvetica,helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .nav-bar li{
@@ -102,7 +107,7 @@ nav{
     -o-transition: color 1s;
     transition: color 1s;
     text-decoration: none;
-    color: #8B8B8B;
+    color: #000;
     font-weight:700;
 }
 
@@ -114,24 +119,20 @@ nav{
 
 .nav-bar li a:link{
     text-decoration: none;
-    color: #8B8B8B;
     font-weight:700;
 }
 
 .nav-bar li a:visited{
     text-decoration: none;
-    color: #8B8B8B;
     font-weight:700;
 }
 
 .nav-bar li a:hover{
     text-decoration: none;
-    color: #222;
     font-weight:700;
 }
 
 .nav-bar li a:active{
     text-decoration: none;
-    color: #222;
     font-weight:700;
 }
