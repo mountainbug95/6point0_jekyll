@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     footer h5{
         font-size: 8px;
         padding-left: 1%;
