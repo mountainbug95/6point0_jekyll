@@ -48,7 +48,7 @@
     100% {margin-left: 0%; width: 300%;}
 }
 
-/*font scaling*/
+/*tagline font scaling*/
 @media screen and (min-width: 1000px) {
     .tag-line{
         font-size: 40px;
@@ -58,6 +58,10 @@
     .cursor h1{
         font-size: 40px;
         line-height: 40px;
+    }
+    
+    .cursor h1.line-cursor{
+        padding: 5px;
     }
 }
 
@@ -71,6 +75,10 @@
         font-size: 32px;
         line-height: 32px;
     }
+    
+    .cursor h1.line-cursor{
+        padding: 4px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -83,6 +91,10 @@
         font-size: 24px;
         line-height: 24px;
     }
+    
+    .cursor h1.line-cursor{
+        padding: 3px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -94,6 +106,10 @@
     .cursor h1{
         font-size: 16px;
         line-height: 16px;
+    }
+    
+    .cursor h1.line-cursor{
+        padding: 2px;
     }
 }
 /*END FONT SCALING*/
@@ -157,8 +173,6 @@
     border-left: solid;
     border-left-color: #BCBCBC;
     border-left-width: 3px;
-    padding-top: 30px;
-    min-width: 100%
 }
 
 
@@ -253,8 +267,6 @@
 .progress-btn:hover:after{
     transform: translateY(0) rotateX(0deg);
 }
-/*END FLIPPING BUTTON*/
-
 
 .progress-btn:visited{
     text-decoration: none;
@@ -265,6 +277,48 @@
     padding-left: 25px;
     padding-right: 25px;
 }
+/*END FLIPPING BUTTON*/
+
+/*font scaling*/
+@media screen and (min-width: 1200px) {
+    .projects-container h1{
+        font-size: 40px;
+    }
+    
+    .project-listing-container{
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .project-listing-container{
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projects-container h1{
+        font-size: 32px;
+    }
+    
+    .project-listing-container{
+        max-width: 210px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .projects-container h1{
+        font-size: 24px;
+    }
+    
+    .project-listing-container{
+        max-width: 100%;
+        display: block;
+    }
+}
+
+/*END FONT SCALING*/
 
 .projects-section{
     display: block;
