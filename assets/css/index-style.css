@@ -42,8 +42,8 @@
 
 @keyframes line-cursor-anim{
     0%  {margin-left: 0%; width: 300%;}
-    10% { margin-left: 100%; width:300%; }
-    70% { margin-left: 100%; width:300%; }
+    10% { margin-left: 105%; width:300%; }
+    70% { margin-left: 105%; width:300%; }
     77% {margin-left: 0%; width: 300%;}
     100% {margin-left: 0%; width: 300%;}
 }
