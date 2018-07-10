@@ -172,7 +172,9 @@ body{
 
 .content-container{
     max-width: 1200px;
+    margin-left: 3px;;
+    margin-right: 3px;
+    margin-top: 220px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 220px;
 }

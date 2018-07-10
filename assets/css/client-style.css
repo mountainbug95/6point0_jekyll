@@ -118,14 +118,15 @@ a: hover{
 }
 
 .next-page-container{
+    display: block;
     transition: .2s linear;
     background-color: #383838;
-    margin-left: -20%;
-    margin-right: -20%;
     margin-bottom: 0;
     padding-bottom: 70px;
     padding-top: 70px;
     text-decoration: none;
+    box-sizing: border-box;
+    text-align:center;
 }
 
 .next-page-container:hover{
@@ -134,16 +135,23 @@ a: hover{
     text-decoration: none;
 }
 
+.next-page-name{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 85%;
+
+}
+
 .next-page-container h2{
     transition: .2s linear;
-    margin-left: 20%;
     margin-bottom: 0;
     color: #ff7660;
     text-decoration: none;
 }
 
 .next-page-container h1{
-    margin-left: 20%;
     margin-top: 0;
     color: #fff;
     text-decoration: none;
