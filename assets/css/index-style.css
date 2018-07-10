@@ -4,12 +4,93 @@
 }
 
 /*typed text style*/
+@keyframes line1-anim {
+    0%  { opacity: 1 }
+    24% {opacity: 1}
+    25% { opacity: 0 }
+    100%{ opacity: 0 }
+}
+
+@keyframes line2-anim {
+    0%   { opacity: 0 }
+    24% { opacity: 0 }
+    25%   { opacity: 1 }
+    49% { opacity: 1 }
+    50%   { opacity: 0 }
+    100%   { opacity: 0 }
+}
+
+@keyframes line3-anim {
+    0%   { opacity: 0 }
+    49%   { opacity: 0 }
+    50%   { opacity: 1 }
+    74% { opacity: 1 }
+    75% { opacity: 0 }
+    100%   { opacity: 0 }
+}
+
+@keyframes line4-anim {
+    0%   { opacity: 0 }
+    74%   { opacity: 0 }
+    75% { opacity: 1 }
+    100%   { opacity: 1 }
+}
+
+@keyframes line-cursor-anim {
+    0%   { width: 200px;}
+    100%   { width: 10px;}
+}
+
+.cursor{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cursor h1{
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.line1{
+    opacity: 0;
+    animation: line1-anim 13s infinite;
+}
+
+
+.line2{
+    opacity: 0;
+    animation: line2-anim 13s infinite;
+}
+
+
+.line3{
+    opacity: 0;
+    animation: line3-anim 13s infinite;
+}
+
+
+.line4{
+    opacity: 0;
+    animation: line4-anim 13s infinite;
+}
+
+.line-cursor{
+    background-color: lime;
+    width: 0px;
+}
+
 
 /*END TYPED TEXT STYLE*/
 
 /*flipping button*/
 .center{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .progress-btn{

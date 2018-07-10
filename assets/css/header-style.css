@@ -21,19 +21,16 @@ nav{
   100%  { transform: rotate(360deg) }
 }
 @-o-keyframes rotate-anim{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+  0%   { transform: rotate(0deg) }
+  100%  { transform: rotate(360deg) }
 }
 @-moz-keyframes rotate-anim{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+  0%   { transform: rotate(0deg) }
+  100%  { transform: rotate(360deg) }
 }
 @-webkit-keyframes rotate-anim{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+  0%   { transform: rotate(0deg) }
+  100%  { transform: rotate(360deg) }
 }
 
 @media screen and (max-width: 800px) {
