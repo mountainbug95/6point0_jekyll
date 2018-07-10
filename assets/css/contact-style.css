@@ -1,7 +1,8 @@
 .tagline{
-margin-left: 50px;
-margin-right: 50px;
-max-width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 600px;
+    font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .contact-container{
@@ -82,6 +83,7 @@ form textarea:focus{
 .center{
     margin-top: 0px;
     margin-left: 2.5%;
+    font-weight: 800;
 }
 
 .progress-btn{

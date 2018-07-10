@@ -21,10 +21,11 @@
     max-width: 350px;
 }
 
-.project-listing-container article{
+.project-listing-container p{
     text-align: left;
     margin: 10px;
     max-width: 350px;
+    font-size: 14px;
 }
 
 /*left responsive image container*/

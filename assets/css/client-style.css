@@ -44,6 +44,7 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
+    line-height: 40px;
 }
 
 /*details container styles*/
@@ -83,6 +84,14 @@
     
 }
 
+.client-section{
+    font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.website-section{
+    font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 
 /*END DETAILS CONTAINER STYLES*/
 
@@ -104,10 +113,11 @@ a: hover{
     color: #000;
 }
 
+.next-page-link:hover > div h2{
+    color: #000;
+}
+
 .next-page-container{
-    -webkit-transition: .1s linear;
-    -moz-transition: .1s linear;
-    -o-transition: .1s linear;
     transition: .2s linear;
     background-color: #383838;
     margin-left: -20%;
@@ -125,8 +135,10 @@ a: hover{
 }
 
 .next-page-container h2{
+    transition: .2s linear;
     margin-left: 20%;
     margin-bottom: 0;
+    color: #ff7660;
     text-decoration: none;
 }
 
@@ -135,6 +147,9 @@ a: hover{
     margin-top: 0;
     color: #fff;
     text-decoration: none;
+    font-family: 'Helvetica Neue', "Helvetica", helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 1.42857143;
 }
 
 .next-page-link{

@@ -9,6 +9,8 @@ footer h5{
     margin: 0;
     padding-top: 3%;
     padding-left: 5%;
+    font-family: 'Helvetica Neue', "Helvetica", helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 
 .buttons-container{

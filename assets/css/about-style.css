@@ -22,6 +22,11 @@ max-width: 500px;
 .pitch-container h3{
     margin-top: 0px;
     margin-bottom: 0;
+    color: #222;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 }
 
 .pitch-container h1{
