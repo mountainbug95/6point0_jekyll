@@ -77,3 +77,95 @@ form textarea:focus{
 .submit-button input:hover{
     background-color: #000;
 }
+
+/*flipping button*/
+.center{
+    margin-top: 0px;
+    margin-left: 2.5%;
+}
+
+.progress-btn{
+    text-decoration: none;
+    background-color: #ff7660;
+
+    text-align:center;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.progress-btn:hover{
+    text-decoration: none;
+    background-color: #ff7660;
+    color: #ff7660;
+    
+    text-align:center;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.progress-btn:before{
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+    text-decoration: none;
+    background-color: #ff7660;
+    color: #fff;
+    
+    text-align:center;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    content: "Send Message";
+    transition: .3s;
+    
+    transform-origin: bottom;
+    transform: translateY(0) rotateX(0deg);
+}
+
+.progress-btn:after{
+    vertical-align: top;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+    text-align:center;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    content: "Send Message";
+    content: "Check";
+    transition: .3s;
+    
+    transform-origin: t0p;
+    transform: translateY(50%) rotateX(90deg);
+}
+
+.progress-btn:hover:before{
+    transform: translateY(-100%) rotateX(90deg);
+}
+
+.progress-btn:hover:after{
+    transform: translateY(0) rotateX(0deg);
+}
+/*END FLIPPING BUTTON*/
