@@ -1,3 +1,41 @@
+/*tagline font scaling*/
+@media screen and (min-width: 800px) {
+    .tagline{
+        margin-left: 50px;
+        margin-left: 50px;
+    }
+    
+    .tagline h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tagline{
+        margin-left: 30px;
+        margin-left: 30px;
+    }
+    
+    .tagline h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tagline{
+        margin-left: 20px;
+        margin-left: 20px;
+    }
+    
+    .tagline h2{
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+/*END FONT SCALING*/
+
 .tagline{
     margin-left: 50px;
     margin-right: 50px;
@@ -5,12 +43,42 @@
     font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+/*input area scaling*/
+@media screen and (min-width: 870px){
+    .center{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+}
+@media screen and (max-width: 870px) {
+    .information-fields input{
+        display: block;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    form textarea{
+        min-width: 95%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .center{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/*END SCALING*/
+
 .contact-container{
     padding: 0;
     margin-top: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-bottom: 100px;
+    width: 100%;
+}
+
+.information-fields{
 }
 
 form input{
@@ -27,6 +95,7 @@ form input{
     font-weight: bold;
     font-size: 18px;
     padding-left: 10px;
+    border-radius: 0;
     outline: none;
 }
 
@@ -82,7 +151,6 @@ form textarea:focus{
 /*flipping button*/
 .center{
     margin-top: 0px;
-    margin-left: 2.5%;
     font-weight: 800;
 }
 
