@@ -1,20 +1,8 @@
 /*blurb font scaling*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1127px) {
     .blurb-container{
-        margin-left: 50px;
-        margin-left: 50px;
-    }
-    
-    .blurb-container h2{
-        font-size: 40px;
-        line-height: 40px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .blurb-container{
-        margin-left: 30px;
-        margin-left: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     
     .blurb-container h2{
@@ -23,21 +11,30 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1127px) {
     .blurb-container{
-        margin-left: 20px;
-        margin-left: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
-    
-    .blurb-container h2{
-        font-size: 24px;
-        line-height: 24px;
+}
+
+@media screen and (max-width: 900px) {
+    .blurb-container{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .blurb-container{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 /*END FONT SCALING*/
 
 .blurb-container{
-    max-width: 640px;
+    max-width: 650px;
 }
 
 /*projects listing font & image scaling*/
@@ -88,7 +85,7 @@
 /*END FONT SCALING*/
 
 .projects-container{
-    margin-top: 220px;
+    margin-top: 150px;
     text-align: center;
 }
 
