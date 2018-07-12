@@ -1,21 +1,51 @@
+/*header scaling*/
+@media screen and (min-width: 1600px){
+    header{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@media screen and (max-width: 1600px){
+    header{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media screen and (max-width: 1400px){
+    header{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media screen and (max-width: 1200px){
+    header{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header{
+        padding-left: 3%;
+        padding-right: 1%;
+    }
+}
+/*END HEADER SCALING*/
+
 header{
-    display: inline;
-    padding: 0;
-    margin: 0;
+    display: block;
 }
 
 nav{
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 0px;
 }
-
 .logo-container{
-    margin: 0;
     margin-top: 20px;
-    margin-left: -30px;
     padding: 0;
     float: left;
     display: block;
+    text-align: left;
 }
 
 @keyframes rotate-anim {
@@ -35,7 +65,7 @@ nav{
   100%  { transform: rotate(360deg) }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .nav-bar a{
         display: none;
     }
@@ -46,14 +76,17 @@ nav{
 }
 
 .header-logo-bg{
+    width: 30px;
     display: inline-block;
     margin:0;
     padding: 0;
     position: relative;
-    left: 60px;
+    left: 0;
+    top: -13px;
 }
 
 .logo-link{
+    display: inline;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -76,18 +109,18 @@ nav{
 }
 
 .header-logo{
+    width: 70px;
     margin:0;
     padding: 0;
     position: relative;
-    top: 15px;
-    left: 25px;
+    top: 0px;
+    left: -24px;
 }
 
 .nav-bar{
     list-style-type: none;
     text-align: right;
     padding-top: 50px;
-    padding-right: 50px;
     font-family: 'Helvetica Neue',Helvetica,helvetica,sans-serif;
     font-weight: 700;
     font-size: 16px;

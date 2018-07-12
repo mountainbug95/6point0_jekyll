@@ -59,7 +59,7 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     
     .nav-button{
         display: inline-block;
@@ -67,11 +67,11 @@
     
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1000px) {
     
     .drop-nav-container{
     display: none;
-}
+    }
     
 }
 
