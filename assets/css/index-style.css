@@ -1,6 +1,18 @@
+/*blurb scaling*/
+@media screen and (min-width: 400px) {
+    .projects-blurb{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .projects-blurb{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/*END BLURB SCALING*/
 .projects-blurb{
-    margin-left: 50px;
-    margin-right: 50px;
     white-space: nowrap;
     display: inline-block;
     box-sizing: border-box;
@@ -42,11 +54,40 @@
 
 @keyframes line-cursor-anim{
     0%  {margin-left: 0%; width: 300%;}
+    5.2% { margin-left: 105%; width:300%; }
+    10.4% { margin-left: 105%; width:300%; }
+    15.6% {margin-left: 0%; width: 300%;}
+    20.8% {margin-left: 0%; width: 300%;}
+    
+    26%  {margin-left: 0%; width: 300%;}
+    31.2% { margin-left: 105%; width:300%; }
+    36.4% { margin-left: 105%; width:300%; }
+    41.6% {margin-left: 0%; width: 300%;}
+    46.8% {margin-left: 0%; width: 300%;}
+    
+    52%  {margin-left: 0%; width: 300%;}
+    57.2% { margin-left: 79%; width:300%; }
+    62.4% { margin-left: 79%; width:300%; }
+    67.6% {margin-left: 0%; width: 300%;}
+    72.8% {margin-left: 0%; width: 300%;}
+    
+    78%  {margin-left: 0%; width: 300%;}
+    83.2% { margin-left: 95%; width:300%; }
+    88.4% { margin-left: 95%; width:300%; }
+    93.8% {margin-left: 0%; width: 300%;}
+    100% {margin-left: 0%; width: 300%;}
+}
+
+/*
+@keyframes line-cursor-anim{
+    0%  {margin-left: 0%; width: 300%;}
     10% { margin-left: 105%; width:300%; }
     70% { margin-left: 105%; width:300%; }
     77% {margin-left: 0%; width: 300%;}
     100% {margin-left: 0%; width: 300%;}
 }
+
+*/
 
 /*tagline font scaling*/
 @media screen and (min-width: 1000px) {
@@ -94,22 +135,6 @@
     
     .cursor h1.line-cursor{
         padding: 3px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .tag-line{
-        font-size: 16px;
-        line-height: 16px;
-    }
-    
-    .cursor h1{
-        font-size: 16px;
-        line-height: 16px;
-    }
-    
-    .cursor h1.line-cursor{
-        padding: 2px;
     }
 }
 /*END FONT SCALING*/
@@ -168,7 +193,7 @@
 }
 
 .line-cursor{
-    animation: line-cursor-anim 3s infinite;
+    animation: line-cursor-anim 12s infinite;
     background-color: #fff;
     border-left: solid;
     border-left-color: #BCBCBC;
