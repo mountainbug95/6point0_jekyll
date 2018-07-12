@@ -243,7 +243,7 @@ max-width: 600px;
     opacity: 0.9;
 }
 
-.img-overlay:active{
+.img-container img:focus > .img-overlay{
     -webkit-transition: .3s linear;
     -moz-transition: .3s linear;
     -o-transition: .3s linear;
