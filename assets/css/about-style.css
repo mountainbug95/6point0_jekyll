@@ -1,3 +1,41 @@
+/*tagline font scaling*/
+@media screen and (min-width: 800px) {
+    .tagline{
+        margin-left: 50px;
+        margin-left: 50px;
+    }
+    
+    .tagline h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tagline{
+        margin-left: 30px;
+        margin-left: 30px;
+    }
+    
+    .tagline h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tagline{
+        margin-left: 20px;
+        margin-left: 20px;
+    }
+    
+    .tagline h2{
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+/*END FONT SCALING*/
+
 .tagline{
 margin-left: 50px;
 margin-right: 50px;
@@ -5,11 +43,40 @@ max-width: 500px;
 }
 
 .img-container{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 100px;
     margin-bottom: 75px;
 }
+
+/*pitch-container font scaling*/
+@media screen and (min-width: 100px) { 
+    .pitch-container h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .pitch-container h3{
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .pitch-container h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .pitch-container h3{
+        font-size: 16px;
+        line-height: 16px;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+/*END FONT SCALING*/
 
 .pitch-container{
     margin-left: auto;
@@ -23,7 +90,6 @@ max-width: 500px;
     margin-top: 0px;
     margin-bottom: 0;
     color: #222;
-    font-size: 20px;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.5px;
@@ -43,6 +109,21 @@ max-width: 500px;
     display: inline;
 }
 
+/*services-container font scaling*/
+@media screen and (min-width: 1000px) {
+    .services-container div{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .services-container div{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+/*END FONT SCALING*/
+
 .services-container{
     margin-left: auto;
     margin-right: auto;
@@ -54,8 +135,10 @@ max-width: 500px;
 .services-container div{
     display: inline-block;
     text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
+}
+
+.services-container div h2{
+    margin-top: 40px;
 }
 
 .services-container ul{
@@ -66,6 +149,19 @@ max-width: 500px;
     margin: 10px;
     font-size: 15px;
 }
+
+/*selected-clients-container font scaling*/
+@media screen and (min-width: 100px) { 
+    .selected-clients-container h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .selected-clients-container h2{
+        font-size: 25px;
+    }
+}
+/*END FONT SCALING*/
 
 .selected-clients-container{
     margin-left: auto;
