@@ -2,7 +2,7 @@
 @media screen and (min-width: 800px) {
     .tagline{
         margin-left: 50px;
-        margin-left: 50px;
+        margin-right: 50px;
     }
     
     .tagline h2{
@@ -14,31 +14,29 @@
 @media screen and (max-width: 800px) {
     .tagline{
         margin-left: 30px;
-        margin-left: 30px;
+        margin-right: 30px;
     }
     
     .tagline h2{
         font-size: 32px;
-        line-height: 32px;
+        line-height: 40px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .tagline{
-        margin-left: 20px;
-        margin-left: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     
     .tagline h2{
         font-size: 24px;
-        line-height: 24px;
+        line-height: 40px;
     }
 }
 /*END FONT SCALING*/
 
 .tagline{
-    margin-left: 50px;
-    margin-right: 50px;
     max-width: 600px;
     font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
 }
