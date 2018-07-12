@@ -10,11 +10,15 @@
     
     <nav>
         <ul class="nav-bar">
-            {% for page in site.pages %}
+            <!--{% for page in site.pages %}
                 {% if page.title != null and page.title != "Index" and page.layout != "client" %}
                     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                 {% endif %}
-            {% endfor %}
+            {% endfor %}-->
+            <li><a href="/pages/work.html">Work</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/people.html">People</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
