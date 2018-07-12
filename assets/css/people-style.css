@@ -127,30 +127,83 @@ max-width: 600px;
         padding: 0;
     }
     .twitter-btn{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     .twitter-btn:hover{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     .dribbble-btn{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     .dribbble-btn:hover{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     .mail-btn{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     .mail-btn:hover{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     .instagram-btn{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     .instagram-btn:hover{
-        margin-top: 250%;
+        margin-top: 350px;
     }
     
+}
+
+@media screen and (max-width: 600px){
+    .twitter-btn{
+        margin-top: 300px;
+    }
+    .twitter-btn:hover{
+        margin-top: 300px;
+    }
+    .dribbble-btn{
+        margin-top: 300px;
+    }
+    .dribbble-btn:hover{
+        margin-top: 300px;
+    }
+    .mail-btn{
+        margin-top: 300px;
+    }
+    .mail-btn:hover{
+        margin-top: 300px;
+    }
+    .instagram-btn{
+        margin-top: 300px;
+    }
+    .instagram-btn:hover{
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 400px){
+    .twitter-btn{
+        margin-top: 250px;
+    }
+    .twitter-btn:hover{
+        margin-top: 250px;
+    }
+    .dribbble-btn{
+        margin-top: 250px;
+    }
+    .dribbble-btn:hover{
+        margin-top: 250px;
+    }
+    .mail-btn{
+        margin-top: 250px;
+    }
+    .mail-btn:hover{
+        margin-top: 250px;
+    }
+    .instagram-btn{
+        margin-top: 250px;
+    }
+    .instagram-btn:hover{
+        margin-top: 250px;
+    }
 }
 /**/
 
@@ -183,6 +236,14 @@ max-width: 600px;
 }
 
 .img-container:hover > .img-overlay{
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    opacity: 0.9;
+}
+
+.img-container:active > .img-overlay{
     -webkit-transition: .3s linear;
     -moz-transition: .3s linear;
     -o-transition: .3s linear;
