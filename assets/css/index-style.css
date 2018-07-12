@@ -1,3 +1,22 @@
+/*white space scaling*/
+@media screen and (min-height: 770px) {
+    .projects-blurb{
+        margin-top: 180px;
+    }
+    .projects-section{
+        margin-top: 210px;
+    }
+}
+@media screen and (max-height: 770px) {
+    .projects-blurb{
+        margin-top: 55px;
+    }
+    .projects-section{
+        margin-top: 210px;
+    }
+}
+/*END WHITE SPACE SCALING*/
+
 /*blurb scaling*/
 @media screen and (min-width: 400px) {
     .projects-blurb{
@@ -205,7 +224,7 @@
 
 /*flipping button*/
 .center{
-    margin-top: 50px;
+    margin-top: 80px;
     font-weight: 800;
 }
 
@@ -398,6 +417,7 @@
 
 .projects-container h1{
     text-align: left;
+    margin-bottom: 30px;
 }
 
 .project-listing-container{
