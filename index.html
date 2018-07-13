@@ -20,9 +20,9 @@ title: Index
     <div class="center">
         <a href="/pages/work.html" class="progress-btn"></a>
     </div>
-    
-    
 </div>
+
+<div class="setting-sun" data-aos="set" data-aos-duration="3000" data-aos-anchor="#sun-anchor" data-aos-anchor-placement="bottom-bottom">&nbsp;</div>
 
 <div class="projects-section">
     <div class="projects-container">
@@ -51,7 +51,7 @@ title: Index
         <div class="project-listing-container">
             <div class="project-img-right">
                 <a href="/pages/client-pages/eureka-inn.html">
-                    <img src="/assets/img/work/eureka-thumb.jpg" alt="Eureka Inn" class="img-responsive">
+                    <img src="/assets/img/work/eureka-thumb.jpg" id="sun-anchor" alt="Eureka Inn" class="img-responsive">
                 </a>
             </div>
             <h3>Historic Eureka Inn</h3>
@@ -61,27 +61,5 @@ title: Index
 </div>
 
 <script>
-    
-    
-    function displayLines(){
-        var str1 = ["resonate with users",
-                "grow your business",
-                "bridge chasms",
-                "transform brands"];
-        var delay = 2000;
-        var currentInterval = 0;
-        for(i=0; i < str1.length; i++){
-            
-            (function(i){
-            
-                setTimeout(function(){
-                    document.getElementById("typedText").innerHTML = str1[i];
-                }, currentInterval);
-                
-            }(i));
-                       
-            currentInterval += delay;
-            
-        }
-    }
+  AOS.init();
 </script>

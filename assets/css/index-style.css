@@ -188,6 +188,7 @@
     opacity: 0;
     animation: line1-anim 12s infinite;
     min-width: 100%;
+    z-index: -3;
 }
 
 
@@ -195,6 +196,7 @@
     opacity: 0;
     animation: line2-anim 12s infinite;
     min-width: 100%;
+    z-index: -3;
 }
 
 
@@ -202,6 +204,7 @@
     opacity: 0;
     animation: line3-anim 12s infinite;
     min-width: 100%;
+    z-index: -3;
 }
 
 
@@ -209,6 +212,7 @@
     opacity: 0;
     animation: line4-anim 12s infinite;
     min-width: 100%;
+    z-index: -3;
 }
 
 .line-cursor{
@@ -217,10 +221,53 @@
     border-left: solid;
     border-left-color: #BCBCBC;
     border-left-width: 3px;
+    z-index: -2;
+}
+/*END TYPED TEXT STYLE*/
+
+/*sun scaling*/
+@media screen and (min-width: 1000px) {
+    .setting-sun{
+        top: 50%;
+        right: 25%;
+        display: inline;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .setting-sun{
+        top: 70%;
+        right: 15%;
+        display: inline;
+    }
+}
+@media screen and (max-width: 800px) {
+    .setting-sun{
+        display: none;
+    }
+}
+/*END SUN SCALING*/
+
+/*sun animation*/
+.setting-sun{
+    position: fixed;
+    float: right;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #E6E6E6;
 }
 
+[data-aos="set"] {
+    opacity: 1;
+    transition-property: opacity;
+}
 
-/*END TYPED TEXT STYLE*/
+[data-aos="set"].aos-animate {
+    opacity: 0;
+}
+/*END SUN ANIMATION*/
+
 
 /*flipping button*/
 .center{
