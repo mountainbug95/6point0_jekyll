@@ -17,6 +17,19 @@
 }
 /*END WHITE SPACE SCALING*/
 
+/*mobile white space scaling*/
+@media screen and (max-width: 500px) {
+    .projects-blurb{
+        margin-top: 10px;
+        bottom: 10px;
+    }
+    .projects-section{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+/*END WHITE SPACE SCALING*/
+
 /*blurb scaling*/
 @media screen and (min-width: 400px) {
     .projects-blurb{
