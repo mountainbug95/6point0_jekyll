@@ -252,6 +252,30 @@ max-width: 600px;
     transform: scale(1.2);
 }
 
+.img-container:focus > .img-overlay{
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    opacity: 0.9;
+}
+
+.img-container:focus > img{
+    transform: scale(1.2);
+}
+
+.img-container:active > .img-overlay{
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    opacity: 0.9;
+}
+
+.img-container:active > img{
+    transform: scale(1.2);
+}
+
 .img-overlay{
     -webkit-transition: .3s linear;
     -moz-transition: .3s linear;

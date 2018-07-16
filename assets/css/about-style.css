@@ -48,7 +48,11 @@ max-width: 500px;
 }
 
 .time-ref{
-    display: block;
+    z-index: 1;
+    float: right;
+    display: inline;
+    margin-bottom: -3%;
+    margin-right: 10%
 }
 
 .time-ref img{
@@ -80,6 +84,10 @@ max-width: 500px;
     margin-right: 20px;
     margin-top: 100px;
     margin-bottom: 75px;
+}
+
+.img-container img{
+    z-index: -1;
 }
 
 /*pitch-container font scaling*/
