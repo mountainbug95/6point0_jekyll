@@ -1,3 +1,35 @@
+@media screen and (min-width: 768px)
+{
+    .tagline{
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+    .contact-container{
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+}
+@media screen and (max-width: 768px){
+    .tagline{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .contact-container{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+}
+@media screen and (max-width: 480px){
+    .tagline{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .contact-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
 /*tagline font scaling*/
 @media screen and (min-width: 800px) {
     .tagline{
@@ -66,8 +98,8 @@
 
 .contact-container{
     padding: 0;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    /*margin-top: 150px;
+    margin-bottom: 100px;*/
     width: 100%;
 }
 

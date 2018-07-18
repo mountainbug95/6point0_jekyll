@@ -76,12 +76,12 @@ nav{
 }
 
 .header-logo-bg{
-    width: 30px;
+    width: 35px;
     display: inline-block;
     margin:0;
     padding: 0;
     position: relative;
-    left: 0;
+    left: 10px;
     top: -13px;
 }
 
@@ -109,7 +109,7 @@ nav{
 }
 
 .header-logo{
-    width: 70px;
+    width: 85px;
     margin:0;
     padding: 0;
     position: relative;

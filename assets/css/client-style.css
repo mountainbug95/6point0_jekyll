@@ -1,3 +1,59 @@
+@media screen and (min-width: 768px)
+{
+    .quote-container{
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+    .images-container{
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+    .about-container{
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+    .details-container{
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+}
+@media screen and (max-width: 768px){
+    .quote-container{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .images-container{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .about-container{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .details-container{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+}
+@media screen and (max-width: 480px){
+    .quote-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .images-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .about-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .details-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
 @media screen and (min-width: 780px)
 {
     .quote-container h4{
@@ -19,8 +75,8 @@
     display: block;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 100px;
-    margin-top: 0px;
+    /*margin-bottom: 100px;
+    margin-top: 0px;*/
     
 }
 
@@ -32,7 +88,7 @@
 .images-container{
     display: inline-block;
     max-width: 1500px;
-    margin-bottom: 150px;
+    /*margin-bottom: 150px;*/
     padding: 0;
 }
 
@@ -81,7 +137,7 @@
 .about-container h3{
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
     line-height: 40px;
 }
 
