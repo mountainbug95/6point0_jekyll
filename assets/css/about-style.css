@@ -5,10 +5,10 @@
         margin-left: 50px;
     }
     
-    .tagline h2{
+    /*.tagline h2{
         font-size: 40px;
         line-height: 40px;
-    }
+    }*/
 }
 
 @media screen and (max-width: 800px) {
@@ -17,10 +17,10 @@
         margin-left: 30px;
     }
     
-    .tagline h2{
+    /*.tagline h2{
         font-size: 32px;
         line-height: 40px;
-    }
+    }*/
 }
 
 @media screen and (max-width: 600px) {
@@ -29,17 +29,17 @@
         margin-left: 20px;
     }
     
-    .tagline h2{
+    /*.tagline h2{
         font-size: 24px;
         line-height: 40px;
-    }
+    }*/
 }
 /*END FONT SCALING*/
 
 .tagline{
-margin-left: 50px;
-margin-right: 50px;
-max-width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 500px;
 }
 
 @keyframes rotate-img {
@@ -92,26 +92,26 @@ max-width: 500px;
 
 /*pitch-container font scaling*/
 @media screen and (min-width: 100px) { 
-    .pitch-container h1{
-        font-size: 40px;
-        line-height: 40px;
-    }
-    .pitch-container h3{
-        font-size: 20px;
-        line-height: 20px;
-    }
+    /*.pitch-container h1{*/
+    /*    font-size: 40px;*/
+    /*    line-height: 40px;*/
+    /*}*/
+    /*.pitch-container h3{*/
+    /*    font-size: 20px;*/
+    /*    line-height: 20px;*/
+    /*}*/
 }
 @media screen and (max-width: 1000px) {
     .pitch-container h1{
-        font-size: 30px;
-        line-height: 30px;
+    /*    font-size: 30px;*/
+    /*    line-height: 30px;*/
         text-align: left;
         padding-right: 20px;
         padding-left: 20px;
     }
     .pitch-container h3{
-        font-size: 16px;
-        line-height: 16px;
+     /*   font-size: 16px;*/
+     /*   line-height: 16px;*/
         text-align: left;
         padding-right: 20px;
         padding-left: 20px;
@@ -150,7 +150,7 @@ max-width: 500px;
     display: inline;
 }
 
-/*services-container font scaling*/
+/*services-container scaling*/
 @media screen and (min-width: 1000px) {
     .services-container div{
         margin-left: 40px;
@@ -182,16 +182,20 @@ max-width: 500px;
     margin-top: 40px;
 }
 
-.services-container ul{
+.services-container div ul{
     list-style-type: square;
 }
 
-.services-container ul li{
+.services-container div ul li{
     margin: 10px;
-    font-size: 15px;
+    font-family: 'Helvetica Neue', Helvetica, helvetica, sans-serif;
+    color: #575757;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 18px
 }
 
-/*selected-clients-container font scaling*/
+/*selected-clients-container font scaling
 @media screen and (min-width: 100px) { 
     .selected-clients-container h2{
         font-size: 30px;
@@ -220,6 +224,10 @@ max-width: 500px;
     padding-left: 5%;
     padding-right: 5%;
     text-align: left;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 5px;
+    color: #757575;
 }
 
 .selected-clients-container h2{

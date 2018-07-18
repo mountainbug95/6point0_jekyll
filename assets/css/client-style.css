@@ -1,3 +1,19 @@
+@media screen and (min-width: 780px)
+{
+    .quote-container h4{
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 780px)
+{
+    .quote-container h4{
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+
 .quote-container{
     max-width: 800px;
     display: block;
@@ -6,6 +22,10 @@
     margin-bottom: 100px;
     margin-top: 0px;
     
+}
+
+.quote-container h4{
+    color: #19191f;
 }
 
 /*img container styles*/
@@ -42,6 +62,22 @@
     margin-right: auto;
 }
 
+@media screen and (min-width: 780px)
+{
+    .about-container h3{
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 780px)
+{
+    .about-container h3{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
 .about-container h3{
     padding-left: 50px;
     padding-right: 50px;
@@ -50,8 +86,18 @@
 }
 
 /*details container styles*/
-.details-container{
+@media screen and (min-width: 1020px){
+    .details-container div{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 1020px){
+    .details-container div{
+        display: block;
+    }
+}
 
+.details-container{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -61,7 +107,6 @@
 .details-container div{
     vertical-align: top;
     text-align: left;
-    display: inline-block;
     width: 250px;
     margin-left: 40px;
     margin-right: 40px;
@@ -77,16 +122,67 @@
 
 .details-container div ul li{
     display: inline;
-    padding: 5px;
+    padding: 3px;
     border-radius: 20px;
-    font-weight: 1000;
+    font-weight: 800;
     color: #fff;
     background-color: #8B8B8B;
-    font-size: 9px;
-    
+    font-size: 10px;
+    line-height: 20px;
 }
 
-.client-section{
+@media screen and (min-width: 365px)
+{
+    .services-section h3{
+        font-size: 20px;
+    }
+    .client-section h3{
+        font-size: 20px;
+    }
+    .website-section h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 365px)
+{
+    .services-section h3{
+        font-size: 16px;
+    }
+    .client-section h3{
+        font-size: 16px;
+    }
+    .website-section h3{
+        font-size: 16px;
+    }
+}
+
+.services-section h3{
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Helvetica Neue', Helvetica, helvetica, sans-serif;
+}
+
+.client-section h3{
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Helvetica Neue', Helvetica, helvetica, sans-serif;
+}
+
+.client-section h4{
+    font-size: 20px;
+    line-height: 22px;
+    font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.website-section h3{
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Helvetica Neue', Helvetica, helvetica, sans-serif;
+}
+
+.website-section h4{
+    font-size: 20px;
+    line-height: 22px;
     font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
@@ -146,20 +242,31 @@ a: hover{
 
 }
 
-.next-page-container h2{
+@media screen and (min-width: 780px){
+    .next-page-name h1{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 780px){
+    .next-page-name h1{
+        font-size: 24px;
+    }
+}
+
+.next-page-name h2{
     transition: .2s linear;
     margin-bottom: 0;
     color: #ff7660;
+    font-size: 20px;
     text-decoration: none;
 }
 
-.next-page-container h1{
+.next-page-name h1{
     margin-top: 0;
     color: #fff;
     text-decoration: none;
     font-family: 'Helvetica Neue', "Helvetica", helvetica, sans-serif;
-    font-size: 30px;
-    line-height: 1.42857143;
+    line-height: 30px;
 }
 
 .next-page-link{

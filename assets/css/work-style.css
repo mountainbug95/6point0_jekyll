@@ -45,7 +45,7 @@
         padding: 0;
     }
     
-    .project-listing-container h4{
+    .project-listing-container h3{
         margin: 10px;
         max-width: 350px;
     }
@@ -69,7 +69,7 @@
         box-sizing: border-box;
     }
     
-    .project-listing-container h4{
+    .project-listing-container h3{
         margin: 0;
     }
     
@@ -93,13 +93,15 @@
     vertical-align: top;
 }
 
-.project-listing-container h4{
+.project-listing-container h3{
     text-align: left;
 }
 
 .project-listing-container p{
     text-align: left;
     font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
 }
 
 /*left responsive image container*/
