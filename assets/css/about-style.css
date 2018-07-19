@@ -53,6 +53,20 @@
         font-weight: 300;
     }
 }
+@media screen and (max-width: 668px){
+    .tagline h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .pitch-container h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .services-container h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
 @media screen and (max-width: 480px){
     .tagline{
         margin-top: 35px;
@@ -73,18 +87,6 @@
     .selected-clients-container{
         margin-top: 40px;
         margin-bottom: 120px;
-    }
-    .tagline h2{
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .pitch-container h1{
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .services-container h2{
-        font-size: 25px;
-        line-height: 35px;
     }
 }
 
