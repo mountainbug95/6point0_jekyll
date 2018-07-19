@@ -2,7 +2,7 @@
 {
     .projects-blurb{
         margin-bottom: 104px;
-        margin-top: 170px;
+        margin-top: 280px;
     }
     .projects-section{
         margin-bottom: 230px;
@@ -18,7 +18,7 @@
 @media screen and (max-width: 768px){
     .projects-blurb{
         margin-bottom: 215px;
-        margin-top: 70px;
+        margin-top: 210px;
     }
     .projects-section{
         margin-bottom: 150px;
@@ -34,7 +34,7 @@
 @media screen and (max-width: 480px){
     .projects-blurb{
         margin-bottom: 220px;
-        margin-top: 50px;
+        margin-top: 210px;
     }
     .projects-section{
         margin-bottom: 115px;

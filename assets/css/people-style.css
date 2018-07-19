@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px)
 {
     .tagline{
-        margin-top: 0;
+        margin-top: 85px;
         margin-bottom: 120px;
     }
     .people-container{
@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 768px){
     .tagline{
-        margin-top: 0;
+        margin-top: 10px;
         margin-bottom: 75px;
     }
     .people-container{
@@ -25,7 +25,7 @@
 }
 @media screen and (max-width: 480px){
     .tagline{
-        margin-top: 0;
+        margin-top: 35px;
         margin-bottom: 75px;
     }
     .people-container{

@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px)
 {
     .blurb-container{
-        margin-top: 0px;
+        margin-top: 85px;
         margin-bottom: 130px;
     }
     .projects-container{
@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 768px){
     .blurb-container{
-        margin-top: 0;
+        margin-top: 10px;
         margin-bottom: 64px;
     }
     .projects-container{
@@ -25,7 +25,7 @@
 }
 @media screen and (max-width: 480px){
     .blurb-container{
-        margin-top: 0;
+        margin-top: 35px;
         margin-bottom: 40px;
     }
     .projects-container{
