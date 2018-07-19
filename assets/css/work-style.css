@@ -1,13 +1,43 @@
+@media screen and (min-width: 768px)
+{
+    .blurb-container{
+        margin-top: 0px;
+        margin-bottom: 130px;
+    }
+    .projects-container{
+        margin-top: 104px;
+        margin-bottom: 210px;
+    }
+}
+@media screen and (max-width: 768px){
+    .blurb-container{
+        margin-top: 0;
+        margin-bottom: 64px;
+    }
+    .projects-container{
+        margin-top: 64px;
+        margin-bottom: 90px;
+    }
+    .blurb-container h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width: 480px){
+    .blurb-container{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .projects-container{
+        margin-top: 40px;
+        margin-bottom: 160px;
+    }
+}
 /*blurb font scaling*/
 @media screen and (min-width: 1127px) {
     .blurb-container{
         margin-left: 60px;
         margin-right: 60px;
-    }
-    
-    .blurb-container h2{
-        font-size: 32px;
-        line-height: 32px;
     }
 }
 
@@ -84,38 +114,6 @@
 
 /*END FONT SCALING*/
 
-@media screen and (min-width: 768px)
-{
-    .blurb-container{
-        margin-top: 104px;
-        margin-bottom: 104px;
-    }
-    .projects-container{
-        margin-top: 104px;
-        margin-bottom: 104px;
-    }
-}
-@media screen and (max-width: 768px){
-    .blurb-container{
-        margin-top: 64px;
-        margin-bottom: 64px;
-    }
-    .projects-container{
-        margin-top: 64px;
-        margin-bottom: 64px;
-    }
-}
-@media screen and (max-width: 480px){
-    .blurb-container{
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    .projects-container{
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-}
-
 .projects-container{
     /*margin-top: 150px;*/
     text-align: center;
@@ -126,6 +124,8 @@
 }
 
 .project-listing-container h3{
+    font-size: 18px;
+    line-height: 32px;
     text-align: left;
 }
 
