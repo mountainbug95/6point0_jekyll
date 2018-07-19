@@ -1,32 +1,36 @@
 @media screen and (min-width: 768px)
 {
     .tagline{
-        margin-top: 104px;
-        margin-bottom: 104px;
+        margin-top: 0;
+        margin-bottom: 120px;
     }
     .people-container{
         margin-top: 104px;
-        margin-bottom: 104px;
+        margin-bottom: 280px;
     }
 }
 @media screen and (max-width: 768px){
     .tagline{
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 0;
+        margin-bottom: 75px;
     }
     .people-container{
         margin-top: 64px;
-        margin-bottom: 64px;
+        margin-bottom: 120px;
+    }
+    .tagline h2{
+        font-size: 25px;
+        line-height: 35px;
     }
 }
 @media screen and (max-width: 480px){
     .tagline{
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 0;
+        margin-bottom: 75px;
     }
     .people-container{
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 120px;
     }
 }
 
@@ -247,10 +251,24 @@ max-width: 600px;
 .people-container div h3{
     max-width: 200px;
     margin: 0;
+    padding-bottom:0;
     text-align: left;
     font-family: 'Helvetica Neue',Helvetica,helvetica,sans-serif;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 20px;
+}
+
+.job-description{
+    max-width: 200px;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 0;
+    font-family: "leitura_newsroman", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+    text-align: left;
 }
 
 .people-container div{
