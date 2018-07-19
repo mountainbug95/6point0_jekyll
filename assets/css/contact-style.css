@@ -1,12 +1,12 @@
 @media screen and (min-width: 768px)
 {
     .tagline{
-        margin-top: 104px;
+        margin-top: 0;
         margin-bottom: 104px;
     }
     .contact-container{
         margin-top: 104px;
-        margin-bottom: 104px;
+        margin-bottom: 25px;
     }
 }
 @media screen and (max-width: 768px){
@@ -18,15 +18,19 @@
         margin-top: 64px;
         margin-bottom: 64px;
     }
+    .tagline h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
 }
 @media screen and (max-width: 480px){
     .tagline{
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 75px;
     }
     .contact-container{
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 
@@ -198,10 +202,10 @@ form textarea:focus{
 
 .progress-btn{
     text-decoration: none;
-    background-color: #ff7660;
+    background-color: #fff;
     font-size: 18px;
     text-align:center;
-    width: 170px;
+    width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -213,7 +217,7 @@ form textarea:focus{
 
 .progress-btn:hover{
     text-decoration: none;
-    background-color: #ff7660;
+    background-color: #fff;
     color: #ff7660;
     
     text-align:center;
