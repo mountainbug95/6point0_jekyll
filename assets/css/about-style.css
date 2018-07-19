@@ -1,56 +1,66 @@
 @media screen and (min-width: 768px)
 {
     .tagline{
-        margin-top: 104px;
-        margin-bottom: 104px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .img-container{
-        margin-top: 104px;
-        margin-bottom: 104px;
+        margin-top: 70px;
+        margin-bottom: 0;
     }
     .pitch-container{
-        margin-top: 104px;
-        margin-bottom: 104px;
+        margin-top: 80px;
+        margin-bottom: 0;
     }
     .services-container{
-        margin-top: 104px;
-        margin-bottom: 104px;
+        margin-top: 35px;
+        margin-bottom: 170px;
     }
     .selected-clients-container{
         margin-top: 104px;
-        margin-bottom: 104px;
+        margin-bottom: 250px;
+    }
+    .pitch-container p{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
     }
 }
 @media screen and (max-width: 768px){
     .tagline{
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .img-container{
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 25px;
+        margin-bottom: 80px;
     }
     .pitch-container{
         margin-top: 64px;
-        margin-bottom: 64px;
+        margin-bottom: 0;
     }
     .services-container{
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 40px;
+        margin-bottom: 130px;
     }
     .selected-clients-container{
         margin-top: 64px;
-        margin-bottom: 64px;
+        margin-bottom: 80px;
+    }
+    .pitch-container p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 300;
     }
 }
 @media screen and (max-width: 480px){
     .tagline{
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .img-container{
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 10px;
+        margin-bottom: 90px;
     }
     .pitch-container{
         margin-top: 40px;
@@ -58,11 +68,23 @@
     }
     .services-container{
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 110px;
     }
     .selected-clients-container{
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 120px;
+    }
+    .tagline h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .pitch-container h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .services-container h2{
+        font-size: 25px;
+        line-height: 35px;
     }
 }
 
@@ -159,7 +181,7 @@
 }
 
 /*pitch-container font scaling*/
-@media screen and (min-width: 100px) { 
+@media screen and (min-width: 1000px) { 
     /*.pitch-container h1{*/
     /*    font-size: 40px;*/
     /*    line-height: 40px;*/
@@ -255,7 +277,7 @@
 }
 
 .services-container div ul li{
-    margin: 10px;
+    margin: 4px;
     font-family: 'Helvetica Neue', Helvetica, helvetica, sans-serif;
     color: #575757;
     font-weight: 300;
