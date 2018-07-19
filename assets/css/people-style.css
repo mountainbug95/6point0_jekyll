@@ -186,7 +186,6 @@ max-width: 600px;
     .instagram-btn:hover{
         margin-top: 350px;
     }
-    
 }
 
 @media screen and (max-width: 600px){
@@ -241,10 +240,9 @@ max-width: 600px;
         margin-top: 250px;
     }
 }
-/**/
+/*END PEOPLE SCALEING*/
 
 .people-container{
-    /*margin-top: 100px;*/
     text-align: center;
 }
 
@@ -345,7 +343,6 @@ max-width: 600px;
 .image-overlay div{
     text-align: center;
 }
-
 
 /*overlay buttons-*/
 .twitter-btn{

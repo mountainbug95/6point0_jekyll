@@ -58,24 +58,13 @@
     color: #ff7660;
 }
 
-
-
 @media screen and (max-width: 800px) {
-    
     .nav-button{
         display: inline-block;
-    }
-    
+    } 
 }
-
 @media screen and (min-width: 800px) {
-    
     .drop-nav-container{
     display: none;
-    }
-    
+    } 
 }
-
-
-
-

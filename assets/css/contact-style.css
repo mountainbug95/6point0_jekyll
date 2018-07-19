@@ -103,8 +103,6 @@
 
 .contact-container{
     padding: 0;
-    /*margin-top: 150px;
-    margin-bottom: 100px;*/
     width: 100%;
 }
 
@@ -220,7 +218,6 @@ form textarea:focus{
     text-decoration: none;
     background-color: #fff;
     color: #ff7660;
-    
     text-align:center;
     width: 150px;
     padding-top: 10px;
@@ -236,11 +233,9 @@ form textarea:focus{
     position:absolute;
     top: 0;
     left: 0;
-    
     text-decoration: none;
     background-color: #ff7660;
     color: #fff;
-    
     text-align:center;
     width: 170px;
     padding-top: 10px;
@@ -249,7 +244,6 @@ form textarea:focus{
     padding-right: 10px;
     content: "Send Message";
     transition: .3s;
-    
     transform-origin: bottom;
     transform: translateY(0) rotateX(0deg);
 }
@@ -259,12 +253,10 @@ form textarea:focus{
     position:absolute;
     top: 0;
     left: 0;
-    
     text-align:center;
     text-decoration: none;
     background-color: #000;
     color: #fff;
-    
     width: 170px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -273,7 +265,6 @@ form textarea:focus{
     content: "Send Message";
     content: "Check";
     transition: .3s;
-    
     transform-origin: t0p;
     transform: translateY(50%) rotateX(90deg);
 }

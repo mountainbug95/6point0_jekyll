@@ -42,38 +42,6 @@
     }
 }
 
-/*verticle white space scaling
-@media screen and (min-height: 770px) {
-    .projects-blurb{
-        margin-top: 180px;
-    }
-    .projects-section{
-        margin-top: 210px;
-    }
-}
-@media screen and (max-height: 770px) {
-    .projects-blurb{
-        margin-top: 55px;
-    }
-    .projects-section{
-        margin-top: 210px;
-    }
-}
-/*END WHITE SPACE SCALING*/
-
-/*mobile white space scaling
-@media screen and (max-width: 500px) {
-    .projects-blurb{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .projects-section{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-}
-/*END WHITE SPACE SCALING*/
-
 /*blurb scaling*/
 @media screen and (min-width: 400px) {
     .projects-blurb{
@@ -135,36 +103,22 @@
     10.4% { margin-left: 105%; width:300%; }
     15.6% {margin-left: 0%; width: 300%;}
     20.8% {margin-left: 0%; width: 300%;}
-    
     26%  {margin-left: 0%; width: 300%;}
     31.2% { margin-left: 105%; width:300%; }
     36.4% { margin-left: 105%; width:300%; }
     41.6% {margin-left: 0%; width: 300%;}
     46.8% {margin-left: 0%; width: 300%;}
-    
     52%  {margin-left: 0%; width: 300%;}
     57.2% { margin-left: 79%; width:300%; }
     62.4% { margin-left: 79%; width:300%; }
     67.6% {margin-left: 0%; width: 300%;}
     72.8% {margin-left: 0%; width: 300%;}
-    
     78%  {margin-left: 0%; width: 300%;}
     83.2% { margin-left: 95%; width:300%; }
     88.4% { margin-left: 95%; width:300%; }
     93.8% {margin-left: 0%; width: 300%;}
     100% {margin-left: 0%; width: 300%;}
 }
-
-/*
-@keyframes line-cursor-anim{
-    0%  {margin-left: 0%; width: 300%;}
-    10% { margin-left: 105%; width:300%; }
-    70% { margin-left: 105%; width:300%; }
-    77% {margin-left: 0%; width: 300%;}
-    100% {margin-left: 0%; width: 300%;}
-}
-
-*/
 
 /*tagline font scaling*/
 @media screen and (min-width: 768px) {
@@ -237,7 +191,6 @@
     float: left;
     position: absolute;
     white-space: nowrap;
-    
     top: 0;
     left: 0;
 }
@@ -335,7 +288,6 @@
 .progress-btn{
     text-decoration: none;
     background-color: #ff7660;
-
     text-align:center;
     width: 150px;
     padding-top: 10px;
@@ -351,7 +303,6 @@
     text-decoration: none;
     background-color: #ff7660;
     color: #ff7660;
-    
     text-align:center;
     width: 150px;
     padding-top: 10px;
@@ -367,11 +318,9 @@
     position:absolute;
     top: 0;
     left: 0;
-    
     text-decoration: none;
     background-color: #ff7660;
     color: #fff;
-    
     text-align:center;
     width: 150px;
     padding-top: 10px;
@@ -380,7 +329,6 @@
     padding-right: 10px;
     content: "See Projects →";
     transition: .3s;
-    
     transform-origin: bottom;
     transform: translateY(0) rotateX(0deg);
 }
@@ -390,12 +338,10 @@
     position:absolute;
     top: 0;
     left: 0;
-    
     text-align:center;
     text-decoration: none;
     background-color: #000;
     color: #fff;
-    
     width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -403,7 +349,6 @@
     padding-right: 10px;
     content: "Check";
     transition: .3s;
-    
     transform-origin: t0p;
     transform: translateY(50%) rotateX(90deg);
 }
@@ -460,10 +405,6 @@
 }
 
 @media screen and (max-width: 650px) {
-    /*.projects-container h1{
-        font-size: 24px;
-    }*/
-    
     .projects-container{
         white-space: normal;
     }
