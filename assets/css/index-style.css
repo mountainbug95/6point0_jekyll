@@ -1,3 +1,47 @@
+@media screen and (min-width: 768px)
+{
+    .projects-blurb{
+        margin-bottom: 104px;
+        margin-top: 170px;
+    }
+    .projects-section{
+        margin-bottom: 230px;
+        margin-top: 125px;
+    }
+    .center{
+        margin-top: 90px;
+    }
+    .projects-container h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px){
+    .projects-blurb{
+        margin-bottom: 215px;
+        margin-top: 70px;
+    }
+    .projects-section{
+        margin-bottom: 150px;
+        margin-top: 64px;
+    }
+    .center{
+        margin-top: 55px;
+    }
+    .projects-container h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 480px){
+    .projects-blurb{
+        margin-bottom: 220px;
+        margin-top: 50px;
+    }
+    .projects-section{
+        margin-bottom: 115px;
+        margin-top: 40px;
+    }
+}
+
 /*verticle white space scaling
 @media screen and (min-height: 770px) {
     .projects-blurb{
@@ -44,38 +88,6 @@
     }
 }
 /*END BLURB SCALING*/
-
-@media screen and (min-width: 768px)
-{
-    .projects-blurb{
-        margin-bottom: 104px;
-        margin-top: 104px;
-    }
-    .projects-section{
-        margin-bottom: 104px;
-        margin-top: 104px;
-    }
-}
-@media screen and (max-width: 768px){
-    .projects-blurb{
-        margin-bottom: 64px;
-        margin-top: 64px;
-    }
-    .projects-section{
-        margin-bottom: 64px;
-        margin-top: 64px;
-    }
-}
-@media screen and (max-width: 480px){
-    .projects-blurb{
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-    .projects-section{
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-}
 
 .projects-blurb{
     white-space: nowrap;
@@ -155,15 +167,15 @@
 */
 
 /*tagline font scaling*/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
     .tag-line{
         font-size: 40px;
-        line-height: 40px;
+        line-height: 50px;
     }
     
     .cursor h1{
         font-size: 40px;
-        line-height: 40px;
+        line-height: 50px;
     }
     
     .cursor h1.line-cursor{
@@ -171,15 +183,15 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .tag-line{
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 24px;
+        line-height: 30px;
     }
     
     .cursor h1{
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 24px;
+        line-height: 30px;
     }
     
     .cursor h1.line-cursor{
@@ -187,15 +199,15 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .tag-line{
         font-size: 24px;
-        line-height: 24px;
+        line-height: 30px;
     }
     
     .cursor h1{
         font-size: 24px;
-        line-height: 24px;
+        line-height: 30px;
     }
     
     .cursor h1.line-cursor{
@@ -317,7 +329,6 @@
 
 /*flipping button*/
 .center{
-    margin-top: 90px;
     font-weight: 800;
 }
 
@@ -418,10 +429,6 @@
 
 /*projects preview font & image scaling*/
 @media screen and (min-width: 1200px) {
-    .projects-container h1{
-        font-size: 40px;
-    }
-    
     .project-listing-container{
         max-width: 350px;
     }
@@ -440,12 +447,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    .projects-container h1{
-        font-size: 32px;
-    }
-    
-    
-    
     .project-listing-container{
         max-width: 210px;
     }
@@ -459,9 +460,9 @@
 }
 
 @media screen and (max-width: 650px) {
-    .projects-container h1{
+    /*.projects-container h1{
         font-size: 24px;
-    }
+    }*/
     
     .projects-container{
         white-space: normal;

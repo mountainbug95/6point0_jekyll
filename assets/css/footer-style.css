@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    footer h5{
+    footer h6{
         padding-left: 1%;
     }
 }
@@ -27,7 +27,7 @@ footer{
     height: 90px;
 }
 
-footer h5{
+footer h6{
     display: inline-block;
     margin: 0;
     padding-top: 3%;
