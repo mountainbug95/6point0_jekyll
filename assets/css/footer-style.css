@@ -1,25 +1,36 @@
 footer{
     background-color: #222;
     color: #8B8B8B;
-    height: 90px;
+    height: 86px;
 }
 
-footer h6{
-    display: inline-block;
-    margin: 0;
-    padding-top: 3%;
-    padding-left: 5%;
+.buttons-container h6{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 17px;
+    margin-right: 0;
+    position: absolute;
+    top: 50%;
     font-family: 'Helvetica Neue', "Helvetica", helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
+    white-space: nowrap;
+    overflow: visible;
+    width: 0px;
+    float: left;
 }
 
 .buttons-container{
-    float: right;
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: inline-block;
-    padding-left: 10%;
-    padding-right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: #222;
 }
 

@@ -40,11 +40,23 @@ nav{
     margin-top: 0px;
     padding: 0px;
 }
+
+@media screen and (min-width: 768px){
+    .logo-container{
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width: 768px){
+    .logo-container{
+        margin-top: 27px;
+    }
+}
+
 .logo-container{
-    margin-top: 20px;
+    margin-bottom: 0;
     padding: 0;
     float: left;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
