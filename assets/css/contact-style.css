@@ -6,7 +6,6 @@
     }
     .contact-container{
         margin-top: 104px;
-        margin-bottom: 100px;
         margin-bottom: 110px;
     }
 }
@@ -263,7 +262,6 @@ form textarea:focus{
     padding-left: 10px;
     padding-right: 10px;
     content: "Send Message";
-    content: "Check";
     transition: .3s;
     transform-origin: t0p;
     transform: translateY(50%) rotateX(90deg);

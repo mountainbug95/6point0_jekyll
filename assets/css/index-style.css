@@ -14,6 +14,20 @@
     .projects-container h1{
         font-size: 40px;
     }
+    @media screen and (max-height: 767px){
+        .projects-blurb{
+            margin-bottom: 104px;
+            margin-top: 146px;
+        }
+        .projects-section{
+            margin-bottom: 248px;
+            margin-top: 125px;
+            /*/\/\/\/\/\
+            use flexible div instead
+            of margin to keep content of
+            index below the fold*/
+        }
+    }
 }
 @media screen and (max-width: 768px){
     .projects-blurb{
