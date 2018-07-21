@@ -1,3 +1,10 @@
+/*Enable antialiasing*/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*-------------------*/
+
 ::selection{
     background: #ff7660;
     color: #fff;
