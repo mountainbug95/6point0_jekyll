@@ -6,7 +6,7 @@
     }
     .projects-container{
         margin-top: 104px;
-        margin-bottom: 210px;
+        margin-bottom: 270px;
     }
 }
 @media screen and (max-width: 768px){
@@ -16,7 +16,7 @@
     }
     .projects-container{
         margin-top: 64px;
-        margin-bottom: 90px;
+        margin-bottom: 121px;
     }
     .blurb-container h2{
         font-size: 25px;
@@ -30,7 +30,7 @@
     }
     .projects-container{
         margin-top: 40px;
-        margin-bottom: 160px;
+        margin-bottom: 157px;
     }
 }
 /*blurb font scaling*/
