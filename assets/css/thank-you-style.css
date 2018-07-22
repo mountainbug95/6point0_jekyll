@@ -1,0 +1,311 @@
+@media screen and (min-width: 768px)
+{
+    .projects-blurb{
+        margin-bottom: 0;
+        margin-top: 83px;
+    }
+    .projects-section{
+        margin-bottom: 84px;
+        margin-top: 144px;
+    }
+    .projects-container h1{
+        font-size: 40px;
+    }
+    @media screen and (max-height: 767px){
+        .projects-blurb{
+            margin-bottom: 104px;
+            margin-top: 146px;
+        }
+        .projects-section{
+            margin-bottom: 248px;
+            margin-top: 125px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .projects-blurb{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .projects-section{
+        margin-bottom: 172px;
+        margin-top: 59px;
+    }
+    .center{
+        margin-top: 55px;
+    }
+    .projects-container h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 480px){
+    .projects-blurb{
+        margin-bottom: 17px;
+        margin-top: 34px;
+    }
+    .projects-section{
+        margin-bottom: 25px;
+        margin-top: 40px;
+    }
+}
+
+.projects-blurb{
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 750px;
+}
+
+/*tagline font scaling*/
+@media screen and (min-width: 768px) {
+    .tag-line{
+        font-size: 104px;
+        line-height: 104px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tag-line{
+        font-size: 40px;
+        line-height: 64px;
+    }
+}
+
+.tag-line{
+    white-space: normal;
+    font-weight: 700;
+}
+
+/*projects preview font & image scaling*/
+@media screen and (min-width: 1200px) {
+    .project-listing-container{
+        max-width: 350px;
+    }
+    
+    .project-img-left{
+        margin-right: 5px;
+    }
+    
+    .project-img-middle{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .project-img-right{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .project-listing-container{
+        max-width: 300px;
+    }
+    
+    .project-img-left{
+        margin-right: 5px;
+    }
+    
+    .project-img-middle{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .project-img-right{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .project-listing-container{
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .project-listing-container{
+        max-width: 210px;
+    }
+    
+}
+
+@media screen and (min-width: 650px){
+    .projects-container{
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .projects-container{
+        white-space: normal;
+    }
+    
+    .project-listing-container{
+        display: block;
+        min-width: 100%;
+    }
+    
+    .project-listing-container div{
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .project-listing-container div img{
+        min-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    
+    .project-listing-container div{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/*END FONT SCALING*/
+.projects-section{
+    display: block;
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.projects-container{
+    /*margin-top: 220px;*/
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.projects-container h1{
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+
+.project-listing-container{
+    vertical-align: top;
+    display: inline-block;
+    white-space: normal;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.project-listing-container h3{
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*left responsive image container*/
+.project-img-left{
+    display: inline-block;
+    margin-top: 5px;
+    /*margin-right: 5px;*/
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.project-img-left a img{
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.project-img-left a img:hover{
+    transform: scale(0.9);
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.project-img-left:hover{
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff7660;
+    padding: 0;
+}
+
+/*middle responsive image container*/
+.project-img-middle{
+    display: inline-block;
+    margin-top: 5px;
+    /*margin-right: 5px;
+    margin-left: 5px;*/
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.project-img-middle a img{
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.project-img-middle a img:hover{
+    transform: scale(0.9);
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.project-img-middle:hover{
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff7660;
+    padding: 0;
+}
+
+/*right responsive image container*/
+.project-img-right{
+    display: inline-block;
+    margin-top: 5px;
+    /*margin-left: 5px;*/
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.project-img-right a img{
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.project-img-right a img:hover{
+    transform: scale(0.9);
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.project-img-right:hover{
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff7660;
+    padding: 0;
+}

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/assets/css/main-style.css">
     <link rel="stylesheet" href="/assets/css/mission-style.css">
     <link rel="stylesheet" href="/assets/css/footer-style.css">
-    {% if page.title == "Index" or page.title == "Thank-You" %}
+    {% if page.title == "Index" %}
         <link rel="stylesheet" href="/assets/css/index-style.css">
     {% endif %}
     {% if page.title == "Work" %}
@@ -35,6 +35,9 @@
     {% endif %}
     {% if page.title == "Contact" %}
         <link rel="stylesheet" href="/assets/css/contact-style.css">
+    {% endif %}
+    {% if page.title == "Thank-You" %}
+        <link rel="stylesheet" href="/assets/css/thank-you-style.css">
     {% endif %}
     <!--end  stylesheets-->
 </head>
