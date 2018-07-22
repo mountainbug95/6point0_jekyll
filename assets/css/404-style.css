@@ -2,11 +2,11 @@
 {
     .projects-blurb{
         margin-bottom: 0;
-        margin-top: 83px;
+        margin-top: 43px;
     }
     .projects-section{
         margin-bottom: 84px;
-        margin-top: 144px;
+        margin-top: 10px;
     }
     .projects-container h1{
         font-size: 40px;
@@ -25,11 +25,11 @@
 @media screen and (max-width: 768px){
     .projects-blurb{
         margin-bottom: 0px;
-        margin-top: 10px;
+        margin-top: 70px;
     }
     .projects-section{
         margin-bottom: 172px;
-        margin-top: 59px;
+        margin-top: 31px;
     }
     .center{
         margin-top: 55px;
@@ -41,7 +41,7 @@
 @media screen and (max-width: 480px){
     .projects-blurb{
         margin-bottom: 17px;
-        margin-top: 34px;
+        margin-top: 94px;
     }
     .projects-section{
         margin-bottom: 25px;
@@ -61,10 +61,18 @@
         font-size: 104px;
         line-height: 104px;
     }
+    .error-msg{
+        font-size: 64px;
+        line-height: 104px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .tag-line{
+        font-size: 40px;
+        line-height: 64px;
+    }
+    .error-msg{
         font-size: 40px;
         line-height: 64px;
     }
@@ -73,6 +81,14 @@
 .tag-line{
     white-space: normal;
     font-weight: 700;
+    color: #ff7660;
+    margin: 0;
+    padding: 0;
+}
+.error-msg{
+    color: #353535;
+    margin: 0;
+    padding: 0;
 }
 
 /*projects preview font & image scaling*/
@@ -184,7 +200,7 @@
     text-align: left;
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 13px;
 }
 
 .project-listing-container{
