@@ -33,7 +33,7 @@
         margin-bottom: 157px;
     }
 }
-/*blurb font scaling*/
+/*blurb font scaling
 @media screen and (min-width: 1127px) {
     .blurb-container{
         margin-left: 60px;
@@ -65,6 +65,9 @@
 
 .blurb-container{
     max-width: 650px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /*projects listing font & image scaling*/
@@ -86,11 +89,26 @@
         max-width: 350px;
     }
 }
+
+@media screen and (min-width: 770px){
+    .project-img-left{
+        margin-right: 5px;
+    }
+    
+    .project-img-middle{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .project-img-right{
+        margin-left: 5px;
+    }
+}
 @media screen and (max-width: 770px) {
     .project-listing-container{
         display: block;
-        padding-left: 10px;
-        padding-right: 10px;
+        /*padding-left: 10px;
+        padding-right: 10px;*/
         min-width: 100%;
     }
     
@@ -110,12 +128,29 @@
     .project-listing-container div img{
         min-width: 100%;
     }
+    
+    .project-img-left{
+        margin-right: 0;
+    }
+    
+    .project-img-middle{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .project-img-right{
+        margin-left: 0;
+    }
 }
 
 /*END FONT SCALING*/
 
 .projects-container{
+    display: inline-block;
+    margin:0;
+    padding: 0;
     text-align: center;
+    max-width: 1140px;
 }
 
 .project-listing-container{
@@ -139,9 +174,9 @@
 .project-img-left{
     display: inline-block;
     margin-top: 5px;
-    margin-right: 5px;
+    /*margin-right: 5px;*/
     margin-bottom: 5px;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 
 .project-img-left a img{
@@ -174,10 +209,10 @@
 .project-img-middle{
     display: inline-block;
     margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
+    /*margin-right: 5px;
+    margin-left: 5px;*/
     margin-bottom: 5px;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 
 .project-img-middle a img{
@@ -210,9 +245,9 @@
 .project-img-right{
     display: inline-block;
     margin-top: 5px;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     margin-bottom: 5px;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 
 .project-img-right a img{
