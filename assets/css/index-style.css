@@ -1,12 +1,12 @@
 @media screen and (min-width: 768px)
 {
     .projects-blurb{
-        margin-bottom: 104px;
+        /*margin-bottom: 104px;*/
         margin-top: 280px;
     }
     .projects-section{
         margin-bottom: 248px;
-        margin-top: 125px;
+        /*margin-top: 125px;*/
     }
     .center{
         margin-top: 90px;
@@ -14,29 +14,28 @@
     .projects-container h1{
         font-size: 40px;
     }
+    .content-spacer{
+        height: 27vh;
+    }
     @media screen and (max-height: 767px){
         .projects-blurb{
-            margin-bottom: 104px;
+            /*margin-bottom: 104px;*/
             margin-top: 146px;
         }
         .projects-section{
             margin-bottom: 248px;
-            margin-top: 125px;
-            /*/\/\/\/\/\
-            use flexible div instead
-            of margin to keep content of
-            index below the fold*/
+            /*margin-top: 125px;*/
         }
     }
 }
 @media screen and (max-width: 768px){
     .projects-blurb{
-        margin-bottom: 215px;
+        /*margin-bottom: 215px;*/
         margin-top: 210px;
     }
     .projects-section{
         margin-bottom: 84px;
-        margin-top: 64px;
+        /*margin-top: 64px;*/
     }
     .center{
         margin-top: 55px;
@@ -44,15 +43,21 @@
     .projects-container h1{
         font-size: 30px;
     }
+    .content-spacer{
+        height: 45vh;
+    }
 }
 @media screen and (max-width: 480px){
     .projects-blurb{
-        margin-bottom: 220px;
+        /*margin-bottom: 220px;*/
         margin-top: 210px;
     }
     .projects-section{
         margin-bottom: 119px;
-        margin-top: 40px;
+        /*margin-top: 40px;*/
+    }
+    .content-spacer{
+        height: 45vh;
     }
 }
 
@@ -478,8 +483,8 @@
         margin-right: 0;
     }
 }
-
 /*END FONT SCALING*/
+
 .projects-section{
     display: block;
     padding: 0;
@@ -490,7 +495,7 @@
 }
 
 .projects-container{
-    margin-top: 220px;
+    /*margin-top: 220px;*/
     text-align: center;
     display: inline-block;
     margin-left: auto;
