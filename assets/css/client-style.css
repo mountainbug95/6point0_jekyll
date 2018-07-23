@@ -98,8 +98,8 @@
 .quote-container{
     max-width: 800px;
     display: block;
-    margin-left: 50px;
-    margin-right: 50px;
+    /*margin-left: 50px;
+    margin-right: 50px;*/
 }
 
 .quote-container h4{
@@ -135,14 +135,15 @@
 .about-container{
     display: inline;
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    background-color: red;
 }
 
-.about-container h3{
+/*.about-container h3{
     padding-left: 50px;
     padding-right: 50px;
-}
+}*/
 
 /*details container styles*/
 @media screen and (min-width: 1020px){
@@ -167,8 +168,8 @@
     vertical-align: top;
     text-align: left;
     width: 250px;
-    margin-left: 40px;
-    margin-right: 40px;
+    /*margin-left: 40px;
+    margin-right: 40px;*/
     padding: 5px;
 }
 
@@ -341,4 +342,9 @@ a: hover{
 .next-page-link:link{
     text-decoration: none;
     transition: none;
+}
+
+/*content container adjustments*/
+.content-container{
+    max-width: 1500px;
 }
