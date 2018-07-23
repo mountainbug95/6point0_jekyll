@@ -139,6 +139,10 @@ form input{
     outline: none;
     color: #000;
     box-shadow: 0px;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
 }
 
 form input:focus{
@@ -160,6 +164,10 @@ form textarea{
     outline: none;
     color: #000;
     box-shadow: 0px;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
 }
 
 form textarea:focus{
@@ -295,6 +303,29 @@ form textarea:focus{
 
 @media screen and (max-width: 707px){
     .header-container{
+        max-width: 95%;
+    }
+}
+
+/*footer scaling*/
+@media screen and (min-width: 884px){
+    .buttons-container{
+        max-width: 778px;
+    }
+}
+@media screen and (max-width: 884px){
+    .buttons-container{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 814px){
+    .buttons-container{
+        max-width: 660px;
+    }
+}
+
+@media screen and (max-width: 707px){
+    .buttons-container{
         max-width: 95%;
     }
 }

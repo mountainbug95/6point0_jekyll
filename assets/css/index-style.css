@@ -642,3 +642,25 @@
         max-width: 95%;
     }
 }
+
+/*footer scaling*/
+@media screen and (min-width: 1214px){
+    .buttons-container{
+        max-width: 1057px;
+    }
+}
+@media screen and (max-width: 1214px){
+    .buttons-container{
+        max-width: 908px;
+    }
+}
+@media screen and (max-width: 1014px){
+    .buttons-container{
+        max-width: 793px;
+    }
+}
+@media screen and (max-width: 0px){
+    .buttons-container{
+        max-width: 95%;
+    }
+}

@@ -172,7 +172,8 @@ q{
     font-weight: 300;
     letter-spacing: 0.5px;
     font-family: "leitura_newsitalic", Georgia, Cambria, "Times New Roman", Times, serif;
-    font-style: italic;  
+    font-style: italic;
+    quotes: "“" "”";
 }
 
 ul{
