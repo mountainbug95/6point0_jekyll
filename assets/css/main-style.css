@@ -235,10 +235,18 @@ body{
     .content-container{
         max-width: 100%;
     }
+    
+    .header-container{
+        max-width: 100%;
+    }
 }
 @media screen and (max-width: 650px){
     .content-container{
         max-width: 90%;
+    }
+    
+    .header-container{
+        max-width: 100%;
     }
 }
 
@@ -251,5 +259,4 @@ body{
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    
 }

@@ -275,3 +275,26 @@ form textarea:focus{
     transform: translateY(0) rotateX(0deg);
 }
 /*END FLIPPING BUTTON*/
+
+/*nav bar scaling*/
+@media screen and (min-width: 884px){
+    .header-container{
+        max-width: 778px;
+    }
+}
+@media screen and (max-width: 884px){
+    .header-container{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 814px){
+    .header-container{
+        max-width: 660px;
+    }
+}
+
+@media screen and (max-width: 707px){
+    .header-container{
+        max-width: 95%;
+    }
+}

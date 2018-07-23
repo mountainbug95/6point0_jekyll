@@ -344,7 +344,26 @@ a: hover{
     transition: none;
 }
 
-/*content container adjustments*/
-.content-container{
+/*content-container scaling*/
+@media screen and (min-width: 1523px){
+    .content-container{
     max-width: 1500px;
+    }
+}
+@media screen and (max-width: 1523px){
+    .content-container{
+    max-width: 95%;
+    }
+}
+
+/*nav bar scaling*/
+@media screen and (min-width: 1523px){
+    .header-container{
+        max-width: 1500px;
+    }
+}
+@media screen and (max-width: 1523px){
+    .header-container{
+        max-width: 95%;
+    }
 }

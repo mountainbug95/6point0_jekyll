@@ -415,19 +415,6 @@
     .project-listing-container{
         max-width: 300px;
     }
-    
-    .project-img-left{
-        margin-right: 5px;
-    }
-    
-    .project-img-middle{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    
-    .project-img-right{
-        margin-left: 5px;
-    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -632,4 +619,26 @@
     border-width: 5px;
     border-color: #ff7660;
     padding: 0;
+}
+
+/*nav bar scaling*/
+@media screen and (min-width: 1214px){
+    .header-container{
+        max-width: 1057px;
+    }
+}
+@media screen and (max-width: 1214px){
+    .header-container{
+        max-width: 908px;
+    }
+}
+@media screen and (max-width: 1014px){
+    .header-container{
+        max-width: 793px;
+    }
+}
+@media screen and (max-width: 0px){
+    .header-container{
+        max-width: 95%;
+    }
 }

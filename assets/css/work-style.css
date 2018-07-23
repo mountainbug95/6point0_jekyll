@@ -275,3 +275,15 @@
     border-color: #ff7660;
     padding: 0;
 }
+
+/*nav bar scaling*/
+@media screen and (min-width: 1200px){
+    .header-container{
+        max-width: 1140px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .header-container{
+        max-width: 95%;
+    }
+}
