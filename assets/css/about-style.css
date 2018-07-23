@@ -365,7 +365,7 @@
     margin-right: auto;
     text-align: center;
     display: inline-block;
-    min-width: 60%;
+    min-width: 100%;
     box-sizing: border-box;
     white-space: nowrap;
 }
@@ -375,14 +375,14 @@
     float: left;
     margin: 0;
     width: 25%;
+    text-align: center;
     display: inline-block;
     box-sizing: border-box;
 }
 
 .client-logos-container img{
     display: inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
+    height: 35px;
 }
 
 /*alter the max width of the content container for the about page*/
