@@ -34,7 +34,7 @@
     }
 }
 
-/*tagline font scaling*/
+/*tagline font scaling
 @media screen and (min-width: 1100px) {
     .tagline{
         margin-left: 100px;
@@ -82,12 +82,12 @@ max-width: 600px;
 @media screen and (min-width: 1100px){
     .people-container div{
         max-width: 250px;
-        padding: 10px;
+        /*padding: 10px;*/
     }
-    .people-container div h3{
+    /*.people-container div h3{
         padding-left: 10px;
         padding-right: 10px;
-    }
+    }*/
     .twitter-btn{
         margin-top: 150px;
     }
@@ -111,17 +111,39 @@ max-width: 600px;
     }
     .instagram-btn:hover{
         margin-top: 150px;
+    }
+    
+    .people-container{
+    text-align: center;
+    }
+    
+    .eli-c{
+        margin-right: 5px;
+    }
+    
+    .breanna-c{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .ziggy-c{
+        margin-right: 5px;
+        margin-left: 9px;
+    }
+    
+    jen-c{
+        margin-left: 5px;
     }
 }
 @media screen and (max-width: 1100px){
     .people-container div{
         max-width: 400px;
-        padding: 10px;
+        /*padding: 10px;*/
     }
-    .people-container div h3{
+    /*.people-container div h3{
         padding-left: 10px;
         padding-right: 10px;
-    }
+    }*/
     .twitter-btn{
         margin-top: 250px;
     }
@@ -146,12 +168,32 @@ max-width: 600px;
     .instagram-btn:hover{
         margin-top: 250px;
     }
-}
-@media screen and (max-width: 850px){
+    
     .people-container{
+    text-align: center;
+    }
+    
+    .eli-c{
+        margin-right: 5px;
+    }
+    
+    .breanna-c{
+        margin-left: 5px;
+    }
+    
+    .ziggy-c{
+        margin-right: 9px;
+    }
+    
+    jen-c{
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 870px){
+    /*.people-container{
         margin-left: 10px;
         margin-right: 10px;
-    }
+    }*/
     .people-container div h3{
         padding-top: 10px;
         padding-bottom: 10px;
@@ -185,6 +227,10 @@ max-width: 600px;
     }
     .instagram-btn:hover{
         margin-top: 350px;
+    }
+    
+    .people-container{
+        text-align: left;
     }
 }
 
@@ -242,13 +288,9 @@ max-width: 600px;
 }
 /*END PEOPLE SCALEING*/
 
-.people-container{
-    text-align: center;
-}
-
 .people-container div h3{
     max-width: 200px;
-    margin: 0;
+    margin-top: 21px;
     padding-bottom:0;
     text-align: left;
     font-family: 'Helvetica Neue',Helvetica,helvetica,sans-serif;
